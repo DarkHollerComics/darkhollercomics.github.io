@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Help Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Ivor">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style type="text/css">
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+</style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    
+<body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+	<a class="brand" href="#">Rock4Life</a>
+     	<div class="nav-collapse">
+        <ul class="nav">
+              <li><a href="#top" class="active">Top</a></li>
+              <li><a href="#markup">Markup</a></li>
+              <li><a href="#styles">Styles</a></li>
+              <li><a href="#javascript">JavaScript</a></li>
+              <li><a href="#credits">Credits</a></li>
+              <li><a href="http://themeforest.net/user/egemenerd" target="_blank">Contact me</a></li>
+          </ul>
+</div>
+	</div>
+		</div>
+			</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container">
+    
+	<div class="masthead">
+	    <h1>Help Documentation</h1>
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/egemenerd" target="_blank">here</a>. Thanks so much!</p>
+  </div> <!-- intro -->
+      
+<section id="markup">
+	<div class="page-header">
+	  <h1>Markup</h1>
+	</div>
+
+
+    <hr />
+<div class="row">
+    <div class="span3">
+  <h3>How To Edit Color</h3>
+  <p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint linenums:105">
+h1 {
+   color: #someColor;
+}
+</pre>
+      </div>
+        </div>
+
+    <hr />
+
+<div class="row">
+    <div class="span3">
+  <h3>Change Structure</h3>
+  <p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint linenums:225">
+header h1 {
+   color: #someColor;
+}
+</pre>
+      </div>
+        </div>
+
+    <hr />
+
+<div class="row">
+    <div class="span3">
+  <h3>How to add new sections to homepage</h3>
+  <p>If you want to add new pages to homepage, you should use the following structure.</p>
+</div>
+
+<div class="span9">
+<pre class="prettyprint linenums:225">
+&lt;section class=&quot;main&quot;&gt; 
+&lt;article class=&quot;column&quot;&gt;.....&lt;/article&gt; 
+&lt;article class=&quot;column&quot;&gt;.....&lt;/article&gt; 
+&lt;article class=&quot;column&quot;&gt;.....&lt;/article&gt; 
+&lt;article class=&quot;column&quot;&gt;.....&lt;/article&gt; 
+&lt;/section&gt; 
+
+&lt;section class=&quot;main&quot;&gt; 
+&lt;article class=&quot;column&quot;&gt;.....&lt;/article&gt; 
+............
+&lt;!-- Use max 4 articles in one section --&gt; 
+&lt;/section&gt;
+</pre>
+      </div>
+        </div>
+  </section> <!-- Markup -->
+      
+
+<section id="styles">
+    <div class="page-header">
+       <h1>Styles</h1>
+     </div>
+
+<div class="row">
+    <div class="span3">
+  <h3>Stylesheets</h3>
+  <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:</p>
+</div>
+<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody>
+            <tr>
+                  <td><code>style.css</code></td>
+                  <td>Contains all of the specific stylings for the template such as colors, heights, widths, margins, paddings etc.</td>
+                </tr>
+           <tr>
+                  <td><code>normalize.css</code></td>
+                  <td>HTML5 display definitions</td>
+                </tr>
+                <tr>
+                  <td><code>grid.css</code></td>
+                  <td>Toast Framework</td>
+                </tr>
+                <tr>
+                  <td><code>media.css</code></td>
+                  <td>Contains some definitions for responsive design</td>
+                </tr>
+           <tr>
+                  <td><code>colorbox.css</code></td>
+                  <td>Contains Jquery colorbox plugin stylings</td>
+                </tr>
+           <tr>
+                  <td><code>mediaelementplayer.css</code></td>
+                  <td>Media Element styles</td>
+                </tr>
+          </tbody>
+            </table>
+      </div>
+        </div>
+    <hr />
+  </section>
+      <!-- Styles -->
+      
+      <section id="javascript">
+	<div class="page-header">
+	  <h1>JavaScript</h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <h3>JavaScript Files</h3>
+  <p>Here's a list of the javascript files I'm using with this template, you can find more information in plugin's official web site:</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>Tag</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>jquery.js</code></td>
+	          <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</td>
+	        </tr>
+            <tr>
+	          <td><code>jquery.backstretch.js</code></td>
+	          <td>Jquery responsive background image plugin</td>
+	        </tr>
+            <tr>
+	          <td><code>jquery.colorbox-min.js</code></td>
+	          <td>A lightweight customizable lightbox plugin for jQuery.</td>
+	        </tr>
+             <tr>
+	          <td><code>jquery.reveal.js</code></td>
+	          <td>jQuery Modal box plugin</td>
+	        </tr>
+            <tr>
+	          <td><code>jquery.imagesloaded.js</code></td>
+	          <td>Execute a callback when all images have loaded.</td>
+	        </tr>
+             <tr>
+	          <td><code>jquery.tweet.js</code></td>
+	          <td>Jquery Tweeter feed plugin.</td>
+	        </tr>
+             <tr>
+	          <td><code>jquery.wookmark.js</code></td>
+	          <td>Jquery Responsive image grid plugin.</td>
+	        </tr>
+            <tr>
+	          <td><code>jquery.placeholder.min.js</code></td>
+	          <td>IE placeholder fix</td>
+	        </tr>
+            <tr>
+	          <td><code>custom.js</code></td>
+	          <td>Custom scripts for homepage.</td>
+	        </tr>
+            <tr>
+	          <td><code>custom2.js</code></td>
+	          <td>Custom scripts for inner pages.</td>
+	        </tr>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	<hr />
+	<div class="row">
+	<div class="span3">
+	  <h3>How To Change the Contact Forms Recipient E-mail</h3>
+	  <p>If you want to change the Recipient E-mail, open up the <code> processForm.php </code> file and change the following code: </p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:4">
+define( &quot;RECIPIENT_NAME&quot;, &quot;YOUR NAME&quot; ); 
+define( &quot;RECIPIENT_EMAIL&quot;, &quot;YOUR MAIL&quot; );
+</pre>
+      </div>
+        </div>
+        	<hr />
+	<div class="row">
+	<div class="span3">
+	  <h3>How To Change Background Images</h3>
+	  <p>If you want to change the homepage background images, open up the <code> custom.js </code> file and change the following code: </p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:37">
+/* Article Backgrounds */
+function background() {
+    "use strict";
+    if ($(window).width() > 480) {
+        $("#home").backstretch("images/concert.jpg");
+        $(".about").backstretch("images/4.jpg");
+        $(".albums").backstretch("images/2.jpg");
+        $(".news").backstretch("images/1.jpg");
+        $(".events").backstretch("images/3.jpg");
+        $(".blog").backstretch("images/1.jpg");
+        $(".contact").backstretch("images/3.jpg");
+    }
+}
+</pre>
+      </div>
+        </div>
+	<hr />
+<div class="row">
+	<div class="span3">
+	  <h3>How To Change the Flickr ID</h3>
+	  <p>To change the Flickr id, open up the <code> jflickrfeed.min.js </code> file and change the following code: </p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js linenums:27">
+        id: '52617155@N08'
+</pre>
+      </div>
+        </div>
+  </section><!-- JavaScript -->
+
+	<section id="credits">
+	  <div class="page-header">
+	    <h1>Credits Files</h1>
+	  </div>
+	  <p>I've used the following scripts and other files as listed.</p>
+	  <h3>JavaScript</h3>
+	  <ol>
+	    <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="http://www.jacklmoore.com/colorbox" target="_blank">jQuery Colorbox</a></li>
+         <li><a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank">jQuery Backstretch</a></li>
+         <li><a href="http://www.zurb.com/playground/reveal-modal-plugin" target="_blank">jQuery Reveal</a></li>
+          <li><a href="https://github.com/desandro/imagesloaded" target="_blank">jQuery Imagesloaded</a></li>
+          <li><a href="https://github.com/seaofclouds/tweet" target="_blank">jQuery Tweet</a></li>
+          <li><a href="http://www.wookmark.com" target="_blank">jQuery Wookmark</a></li>
+	  </ol>
+      <h3>CSS</h3>
+	  <ol>
+	    <li><a href="http://daneden.me/toast/" target="_blank">Toast</a></li>
+        <li><a href="http://daneden.me/animate" target="_blank">Animate</a></li>
+	  </ol>
+      <h3>Backgrounds</h3>
+	  <ol>
+	    <li><a href="http://subtlepatterns.com/" target="_blank">Subtle Patterns</a></li>
+        <li><a href="http://www.libertiny.com/brushportfolio/2009/04/music-brushes/" target="_blank">Libertiny</a></li>
+	  </ol>
+      <h3>Google Web Fonts</h3>
+	  <ol>
+	    <li><a href="http://www.google.com/fonts/specimen/Dosis" target="_blank">Dosis</a></li>
+        <li><a href="http://www.google.com/fonts/specimen/Ubuntu" target="_blank">Ubuntu</a></li>
+	  </ol>
+      <h3>Documentation File Template</h3>
+	  <ol>
+	    <li><a href="http://themeforest.net/user/Ivor" target="_blank">Ivor</a></li>
+	  </ol>
+      <h3>Icons</h3>
+	  <ol>
+	    <li><a href="http://www.iconfinder.com" target="_blank">Icon Finder</a></li>
+	  </ol>
+      <h3>Demo Images</h3>
+	  <ol>
+	    <li><a href="http://www.flickr.com" target="_blank">Flickr</a></li>
+	  </ol>
+      <h3>Demo Music</h3>
+	  <ol>
+	    <li><a href="http://dig.ccmixter.org" target="_blank">digccmixter</a></li>
+        <li><a href="http://ccmixter.org/content/zep_hurme/zep_hurme_-_We_Are_Free.mp3" target="_blank">first demo song</a></li>
+        <li><a href="http://ccmixter.org/content/snowflake/snowflake_-_Give_it_Up_(Start_Again).mp3" target="_blank">second demo song</a></li>
+	  </ol>
+
+
+	</section><!-- Credits -->
+
+
+      <hr />
+
+<div class="goodbye">
+    <p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+  </div>
+
+      <hr />
+
+<footer>
+    <p>&copy; Egemenerd 2013</p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+</html>
