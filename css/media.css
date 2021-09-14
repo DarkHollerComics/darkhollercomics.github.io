@@ -135,7 +135,7 @@ h6
 {
     font-size: 12px;
 }
-#books,#blog
+#book,#blog
 {
   display:none;
 }
@@ -197,7 +197,7 @@ h6
 }
 @media only screen and (max-width:480px)
 {
-#podcasts
+#podcast
 {
   display:none;
 }
@@ -213,11 +213,11 @@ width:50%;
 #menu .info,#homepage .info{
 width:50%;
 }
-#blog .info,#books .info
+#blog .info,#book .info
 {
 	width:25%;
 }
-#blog,#books
+#blog,#book
 {
 	position:absolute;
 	display:block;
@@ -227,7 +227,7 @@ width:50%;
 {
 	right:50%;
 }
-#books
+#book
 {
 	right:75%;
 }

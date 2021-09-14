@@ -390,15 +390,18 @@ section {
 	content: "\f142";
   }
 
+  #homepage:before {
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 13px;
+    left: 17px;
+    font-size: 52px;
+	content: "\f015";
+  }
+
 #homepage {
 	top:0;
 	right:80px;
-	background-position:center center;
-	background-image:url('../images/homepage.png');
-	background-repeat:no-repeat;
-}
-#homepage:hover {
-	background-image:url('../images/homepage2.png');
 }
 #podcast {
 	top:0;
