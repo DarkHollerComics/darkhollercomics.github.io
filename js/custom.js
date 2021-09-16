@@ -45,13 +45,13 @@ function openeffect() {
 function background() {
     "use strict";
     if ($(window).width() > 480) {
-        homebody.backstretch("images/photos/concert.jpg");
-        $('.main').find(".about").backstretch("images/photos/1.jpg");
-        $('.main').find(".podcasts").backstretch("images/photos/2.jpg");
-        $('.main').find(".books").backstretch("images/photos/3.jpg");
-        $('.main').find(".news").backstretch("images/photos/5.jpg");
-        $('.main').find(".events").backstretch("images/photos/6.jpg");
-        $('.main').find(".blog").backstretch("images/photos/4.jpg");
+        homebody.backstretch("images/music-bg.png");
+        $('.main').find(".about").backstretch("images/photos/about.png");
+        //$('.main').find(".podcasts").backstretch("images/photos/podcasts.png");
+        $('.main').find(".books").backstretch("images/photos/books.png");
+        $('.main').find(".news").backstretch("images/photos/news.png");
+        $('.main').find(".events").backstretch("images/photos/events.png");
+        $('.main').find(".blog").backstretch("images/photos/blog.png");
     }
 }
 

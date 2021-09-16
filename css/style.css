@@ -329,7 +329,7 @@ section {
 	display:block;
 	border-style:solid;
 	bottom:-0.4em;
-	border-color:#570900 transparent transparent transparent;
+	border-color:#000 transparent transparent transparent;
 }
 .single-page-title:before {
 	left:0px;
@@ -350,17 +350,19 @@ section {
 	background-color:#898989;
 	height:80px;
 	width:80px;
-	background-position:center center;
-	background-image:url('../images/close.png');
-	background-repeat:no-repeat;
 	-webkit-transition:all 0.4s ease-in-out;
 	-moz-transition:all 0.4s ease-in-out;
 	-o-transition:all 0.4s ease-in-out;
 	-ms-transition:all 0.4s ease-in-out;
 }
-#close:hover {
-	background-image: url('../images/close2.png');
-}
+#close:before {
+	position: absolute;
+	font-family: 'FontAwesome';
+	top: 15px;
+    left: 24px;
+    font-size: 53px;
+	content: "\f00d";
+  }
 /* ================= MENU ================== */
 #close,#podcast,#menu,#homepage,#book,#blog {
 	-webkit-transition:all 0.4s ease-in-out;
@@ -1215,10 +1217,11 @@ textarea {
 footer {
 	background-image:url('../images/pt.png');
 	background-repeat:repeat-x;
-	background-position:left bottom;
+	background-position:center bottom;
 	height:160px;
-	width:100%;
-	bottom:0px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
 	z-index:9;
 }
 .credits {
