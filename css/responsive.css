@@ -1,0 +1,863 @@
+@media(max-width:991px) {
+    .custom-color-btn i {
+        display: none;
+    }
+}
+
+@media(max-width:575px) {
+
+    .nav-bg .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .shows-nav {
+        padding-left: 14px;
+    }
+
+    .nav-bg .shows-nav {
+        padding-left: 1px;
+    }
+
+    .custom-menubar ul li a::after {
+        top: -3px;
+        height: 45px;
+
+    }
+
+    .custom-menubar ul {
+        padding-top: 18px;
+    }
+
+    .custom-menubar ul li {
+        padding-top: 19px;
+    }
+
+    .custom-menubar ul li a {
+        font-size: 34px;
+        padding-left: 25px;
+    }
+
+    .menu-close {
+        right: 5px;
+    }
+
+    #banner {
+        padding: 180px 0 210px;
+    }
+
+    .banner-txt h1 {
+        font-size: 35px;
+    }
+
+    .banner-txt h4 {
+        font-size: 19px;
+        letter-spacing: 12px;
+    }
+
+    .social-icons a i {
+        margin: 0 6px;
+    }
+
+    .available-on a span,
+    .extra-h h5::before,
+    .extra-h h5::after,
+    .map-user p,
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-no-pa {
+        padding-right: 0;
+    }
+
+    .mobile-no-pa2 {
+        padding-left: 0;
+    }
+
+    .available-on {
+        left: 15px;
+        bottom: -165px;
+    }
+
+    .available-on span {
+        margin-left: 0;
+    }
+
+    .social-icons {
+        bottom: -163px;
+        right: 9px;
+    }
+
+    .over-mt h3 {
+        font-size: 78px;
+    }
+
+    #overview {
+        padding: 80px 0 80px;
+        margin-top: 0;
+    }
+
+    .over-mt {
+        margin-top: 0;
+    }
+
+    .banner-item {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .overview-txt p {
+        padding: 0 15px;
+    }
+
+    .sec-header h3 {
+        font-size: 55px;
+    }
+
+    .feature-pt {
+        padding-top: 15px;
+    }
+
+    .feature-text h3 {
+        padding-right: 11px;
+    }
+
+    .feature-text {
+        padding: 30px 25px;
+    }
+
+    .extra-h h5 {
+        letter-spacing: 8px;
+        line-height: 35px;
+    }
+
+    .other-header h3 {
+        font-size: 55px;
+    }
+
+    .feature-pa2 {
+        padding-top: 45px;
+    }
+
+    .featurn-main {
+        margin-top: 40px;
+    }
+
+    .asia {
+        width: 70px;
+        height: 70px;
+        padding-top: 10px;
+        right: 40px;
+        top: -10px;
+    }
+
+    .australia {
+        width: 80px;
+        height: 80px;
+        padding-top: 19px;
+        right: 11px;
+        top: 85px;
+    }
+
+    .north-a {
+        width: 90px;
+        height: 90px;
+        left: 20px;
+        top: -42px;
+        padding-top: 10px;
+    }
+
+    .south-a {
+        width: 90px;
+        height: 90px;
+        left: 10px;
+        padding-top: 10px;
+        top: 90px;
+    }
+
+    .map-user span {
+        font-size: 15px;
+    }
+
+    .map-user h3 {
+        font-size: 16px;
+        padding: 3px 0;
+    }
+
+    .watch-item a i {
+        font-size: 22px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+
+    }
+
+    .setup-pa {
+        padding-top: 0;
+    }
+
+    .setup-item {
+        margin-top: 50px;
+    }
+
+    .mobile-oh h3 {
+        font-size: 45px;
+    }
+
+    .team-pa {
+        padding-top: 40px;
+    }
+
+    .team-img img {
+        width: 100%;
+    }
+
+    #counter {
+        padding: 40px 0;
+    }
+
+    .counter-img::after {
+        width: 275px;
+        height: 275px;
+    }
+
+    .counter-img::before {
+        width: 285px;
+        height: 285px;
+    }
+
+    .counter-style::after {
+        width: 295px;
+        height: 295px;
+    }
+
+    .counter-title span {
+        font-size: 44px;
+    }
+
+    .counter-img {
+        margin-bottom: 20px;
+    }
+
+    .counter-title {
+        margin-bottom: 20px;
+    }
+
+    .counter-item {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .download-bg h3 {
+        font-size: 25px;
+    }
+
+    .download-bg p {
+        padding: 0 12px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+
+    }
+
+    .download-bg a {
+        height: 63px;
+        width: 132px;
+        line-height: 63px;
+        margin-right: 3px;
+    }
+
+    .card-header button i {
+        right: 14px;
+        top: 24px;
+    }
+
+    #faq {
+        padding: 40px 0;
+    }
+
+    .mobile-ci {
+        margin-top: 40px;
+    }
+
+    .mobile-sh h3 {
+        font-size: 45px;
+    }
+
+    .ss-arrow i {
+        display: none !important;
+    }
+
+    #brand {
+        padding: 40px 0;
+    }
+
+    .blog-item h3 {
+        font-size: 21px;
+    }
+
+    .blog-item p {
+        padding-bottom: 4px;
+    }
+
+    .review-txt-main {
+        margin-top: 35px;
+    }
+
+    .review-pa {
+        padding-top: 40px;
+    }
+
+    .price-pa {
+        padding-top: 20px;
+    }
+
+    .price-item {
+        margin-top: 60px;
+    }
+
+    .subscribe-text h3 {
+        font-size: 31px;
+    }
+
+    .subscribe-text button {
+        width: 32%;
+        font-size: 14px;
+    }
+
+    .subscribe-text input {
+        padding-left: 12px;
+        font-size: 13px;
+    }
+
+    #footer {
+        padding: 70px 0;
+    }
+
+    .footer-menu a {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .footer-download {
+        margin-top: 40px;
+    }
+
+    .fm-2 a {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .footer-social {
+        text-align: left !important;
+        padding-top: 20px;
+    }
+
+    .fop-btm h2 {
+        line-height: 27px;
+    }
+}
+
+
+@media(min-width:480px) and (max-width:575px) {
+    .setup-icon span {
+        left: 160px;
+    }
+
+    .australia {
+        right: 57px;
+        top: 109px;
+    }
+
+    .asia {
+        right: 99px;
+        top: 15px;
+    }
+
+    .north-a {
+        left: 53px;
+        top: -22px;
+    }
+
+    .south-a {
+        left: 65px;
+        top: 131px;
+    }
+
+    .counter-img::after {
+        width: 320px;
+        height: 320px;
+    }
+
+    .counter-img::before {
+        width: 350px;
+        height: 350px;
+    }
+
+    .counter-style::after {
+        width: 380px;
+        height: 380px;
+    }
+
+    .counter-title span {
+        font-size: 60px;
+    }
+
+    .download-bg a {
+        width: 150px;
+        line-height: 63px;
+        margin-right: 16px;
+    }
+
+    .subscribe-text input {
+        padding-left: 22px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media(min-width:576px) and (max-width:767px) {
+    .nav-bg .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .shows-nav {
+        padding-left: 14px;
+    }
+
+    .nav-bg .shows-nav {
+        padding-left: 1px;
+    }
+
+    .custom-menubar ul li a::after {
+        top: -9px;
+        height: 45px;
+
+    }
+
+    .custom-menubar ul {
+        padding-top: 18px;
+    }
+
+    .custom-menubar ul li {
+        padding-top: 15px;
+    }
+
+    .custom-menubar ul li a {
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+    .menu-close {
+        right: 5px;
+        top: 30px;
+    }
+
+    .banner-txt h1 {
+        font-size: 62px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .over-mt {
+        margin-top: 0;
+    }
+
+    #overview {
+        padding: 80px 0 80px;
+        margin-top: 0;
+    }
+
+    .feature-text {
+        padding: 30px 40px;
+    }
+
+    .feature-pt {
+        padding-top: 5px;
+    }
+
+    .extra-h h5::before,
+    .extra-h h5::after {
+        display: none;
+    }
+
+    .extra-h h5 {
+        line-height: 34px;
+    }
+
+    .feature-pa2 {
+        padding-top: 45px;
+    }
+
+    .fm-item {
+        padding: 30px 54px;
+    }
+
+    .map-user h3 {
+        font-size: 30px;
+        padding: 6px 0;
+    }
+
+    .map-user span {
+        font-size: 16px;
+    }
+
+    .australia {
+        width: 130px;
+        height: 130px;
+        right: 70px;
+        top: 135px;
+        padding-top: 22px;
+
+    }
+
+    .asia {
+        width: 140px;
+        height: 140px;
+        padding-top: 20px;
+        top: -35px;
+        right: 65px;
+    }
+
+    .north-a {
+        width: 140px;
+        height: 140px;
+        padding-top: 32px;
+        top: -41px;
+        left: 50px;
+    }
+
+    .south-a {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        padding-top: 33px;
+        bottom: -12px;
+        left: 30px;
+    }
+
+    .setup-icon span {
+        left: 180px;
+    }
+
+    .setup-item p {
+        padding: 10px 125px;
+    }
+
+    .setup-item {
+        margin-top: 50px;
+    }
+
+    .setup-pa {
+        padding-top: 5px;
+    }
+
+    .apps-item p {
+        padding-right: 65px;
+    }
+
+    .team-pa {
+        padding-top: 45px;
+    }
+
+    #counter {
+        padding: 40px 0;
+    }
+
+    .counter-img {
+        margin-bottom: 20px;
+    }
+
+    .download-bg p {
+        padding: 0 50px;
+    }
+
+    #faq {
+        padding: 30px 0;
+    }
+
+    #accordionExample {
+        margin-bottom: 40px;
+    }
+
+    .screenshot-pa {
+        padding-top: 40px;
+    }
+
+    .ss-arrow i {
+        display: none !important;
+    }
+
+    #brand {
+        padding: 40px 0;
+    }
+
+    .blog-pa,
+    .review-pa {
+        padding-top: 40px;
+    }
+
+    .review-img-item img {
+        display: inline-block;
+    }
+
+    .review-bg {
+        text-align: center;
+    }
+
+    .review-quote {
+        margin-top: 35px;
+    }
+
+    .price-pa {
+        padding-top: 40px;
+    }
+
+    .price-item {
+        margin-top: 60px !important;
+    }
+
+    .subscribe-text h3 {
+        font-size: 30px;
+    }
+
+    .footer-menu a {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .footer-download {
+        margin-top: 50px;
+    }
+
+    .fop-btm h2 {
+        margin-bottom: 20px;
+    }
+
+    .footer-social {
+        text-align: left !important;
+    }
+
+}
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .custom-menubar ul li a {
+        font-size: 45px;
+    }
+
+    .custom-menubar ul li {
+        padding-top: 15px;
+    }
+
+    .available-on span {
+        margin-left: 6px;
+    }
+
+    #overview {
+        padding: 80px 0 80px;
+        margin-top: 0;
+    }
+
+    .over-mt {
+        margin-top: 0;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .overview-txt p {
+        padding: 0 35px;
+    }
+
+    .feature-text {
+        padding: 45px 60px;
+    }
+
+    .extra-h h5::before,
+    .extra-h h5::after {
+        display: none;
+    }
+
+    .feature-pa2 {
+        padding-top: 45px;
+    }
+
+    .australia {
+        width: 140px;
+        height: 140px;
+        right: 90px;
+        top: 177px;
+        padding-top: 22px;
+    }
+
+    .asia {
+        width: 140px;
+        height: 140px;
+        padding-top: 20px;
+        top: -24px;
+        right: 135px;
+    }
+
+    .north-a {
+        width: 160px;
+        height: 160px;
+        padding-top: 37px;
+        top: -41px;
+        left: 50px;
+    }
+
+    .south-a {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        padding-top: 39px;
+        bottom: 9px;
+        left: 30px;
+    }
+
+    .setup-item p {
+        padding: 10px 15px;
+    }
+
+    .setup-item h3 {
+        font-size: 21px;
+    }
+
+    .setup-icon span {
+        left: 35px;
+    }
+
+    #counter {
+        padding: 60px 0;
+    }
+
+    .counter-img {
+        margin-bottom: 40px;
+    }
+
+    .download-bg p {
+        padding: 0 132px;
+    }
+
+    #faq {
+        padding: 30px 0;
+    }
+
+    #accordionExample {
+        margin-bottom: 60px;
+    }
+
+    #brand {
+        padding: 50px 0;
+    }
+
+    .review-img-item img {
+        display: inline-block;
+    }
+
+    .review-bg {
+        text-align: center;
+    }
+
+    .review-quote {
+        margin-top: 35px;
+    }
+
+    .review-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .review-pa {
+        padding-top: 45px;
+    }
+
+    .price-pa {
+        padding-top: 25px;
+    }
+
+    .price-item {
+        margin-top: 60px !important;
+    }
+
+    .footer-download {
+        margin-top: 46px;
+    }
+
+    #footer {
+        padding: 70px 0;
+    }
+
+    .footer-social {
+        text-align: center !important;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1199px) {
+    .available-on {
+        left: 20px;
+    }
+
+    .social-icons {
+        right: 12px;
+    }
+
+    .over-mt h3 {
+        font-size: 92px;
+    }
+
+    .overview-txt p {
+        padding: 0 24px;
+    }
+
+    .feature-text h3 {
+        padding-right: 50px;
+    }
+
+    .extra-h h5::before,
+    .extra-h h5::after {
+        width: 100px;
+
+    }
+
+    .fm-item h3 {
+        font-size: 21px;
+    }
+
+    .asia {
+        top: 45px;
+        right: 200px;
+    }
+
+    .counter-title span {
+        font-size: 72px;
+    }
+
+    .counter-img::after {
+        width: 320px;
+        height: 320px;
+    }
+
+    .counter-img::before {
+        width: 360px;
+        height: 360px;
+
+    }
+
+    .counter-style::after {
+        display: none;
+    }
+
+    .footer-download a {
+        width: 136px;
+
+    }
+}

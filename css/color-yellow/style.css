@@ -90,22 +90,22 @@ p {
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    src: url(../../fonts/Montserrat-ExtraBold.ttf);
     font-family: meb;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(../../fonts/Montserrat-Bold.ttf);
     font-family: mb;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Medium.ttf);
+    src: url(../../fonts/Montserrat-Medium.ttf);
     font-family: mm;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../../fonts/Montserrat-Regular.ttf);
     font-family: mr;
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 .loader-box {
-    color: #fa573a;
+    color: #fea800;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     width: 44px;
@@ -150,7 +150,7 @@ p {
 
 .loader-box svg rect {
     fill: none;
-    stroke: #fa573a;
+    stroke: #fea800;
     stroke-width: 10px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -240,21 +240,12 @@ p {
     background: rgba(29, 29, 29, 0.7);
     z-index: 999999;
     top: 133px;
-    display: none;
 }
 
 .color-picker h4 {
     font-size: 14px;
     margin-bottom: 10px;
     color: white;
-}
-
-.color-picker h4 i {
-    padding-left: 31px;
-}
-
-.color-picker h4 i:hover {
-    cursor: pointer;
 }
 
 .cv span {
@@ -273,43 +264,7 @@ p {
 }
 
 .light-yellow span {
-    background: #fcd04d;
-}
-
-.light-blue span {
-    background: #00bcd4;
-}
-
-.light-red span {
-    background: #e84545;
-}
-
-.light-orange span {
-    background: #ec7144;
-}
-
-.light-orange2 span {
-    background: #ff7657;
-}
-
-.light-darkred span {
-    background: #dd1c2f;
-}
-
-.light-purple span {
-    background: #8675a9;
-}
-
-.light-pink span {
-    background: #f73859;
-}
-
-.light-radish span {
-    background: #FF4B33;
-}
-
-.cog-close {
-    display: none;
+    background: #fea800;
 }
 
 /*===========================
@@ -337,7 +292,7 @@ p {
 }
 
 .navbar-light .navbar-brand span {
-    color: #fa573a;
+    color: #fea800;
 }
 
 .navbar-light .navbar-brand:focus,
@@ -383,7 +338,7 @@ p {
 }
 
 .menu-link.active {
-    color: #fa573a;
+    color: #fea800;
 }
 
 .shows-nav:hover {
@@ -427,7 +382,7 @@ p {
     left: 0;
     width: 2px;
     height: 65px;
-    background: #fa573a;
+    background: #fea800;
     opacity: 0;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -435,7 +390,7 @@ p {
 }
 
 .custom-menubar ul li a:hover {
-    color: #fa573a;
+    color: #fea800;
 }
 
 .custom-menubar ul li a:hover:after {
@@ -506,7 +461,7 @@ p {
     -webkit-box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     border-radius: 50%;
-    background: #fa573a;
+    background: #fea800;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
 }
@@ -565,7 +520,7 @@ p {
 .banner-txt h1 {
     font-family: mb;
     font-size: 65px;
-    color: #fa573a;
+    color: #fea800;
     text-transform: uppercase;
     padding-bottom: 12px;
 
@@ -586,8 +541,8 @@ p {
     font-size: 17px;
     font-family: mb;
     color: white;
-    border: 1px solid #fa573a;
-    background: #fa573a;
+    border: 1px solid #fea800;
+    background: #fea800;
     border-radius: 50px;
 
 }
@@ -630,7 +585,7 @@ p {
 }
 
 .social-icons a i:hover {
-    color: #fa573a;
+    color: #fea800;
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -638,7 +593,7 @@ p {
 }
 
 .available-on a:hover {
-    color: #fa573a;
+    color: #fea800;
 }
 
 /*===========================
@@ -646,7 +601,7 @@ p {
 =============================*/
 #overview {
     padding: 30px 0 80px;
-    background: #fa573a;
+    background: #fea800;
     margin-top: -200px;
 }
 
@@ -673,7 +628,7 @@ p {
 
 .overview-icon i {
     font-size: 35px;
-    color: #fa573a;
+    color: #fea800;
     width: 75px;
     height: 75px;
     line-height: 75px;
@@ -751,26 +706,26 @@ p {
 .feature-image2,
 .feature-image3,
 .feature-image4 {
-    background: url(../images/feature1.jpg);
+    background: url(../../images/feature1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image2 {
-    background: url(../images/feature2.jpg);
+    background: url(../../images/feature2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image3 {
-    background: url(../images/feature3.jpg);
+    background: url(../../images/feature3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image4 {
-    background: url(../images/feature4.jpg);
+    background: url(../../images/feature4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -792,7 +747,7 @@ p {
 }
 
 .feature-text a {
-    color: #fa573a;
+    color: #fea800;
     font-size: 17px;
     font-family: mb;
 }
@@ -829,7 +784,7 @@ p {
 .sec-header h4 {
     font-size: 18px;
     font-family: mb;
-    color: #fa573a;
+    color: #fea800;
     padding-bottom: 5px;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -839,7 +794,7 @@ p {
 
 .sec-header h3 {
     font-size: 65px;
-    color: #fa573a;
+    color: #fea800;
     font-family: meb;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -847,10 +802,10 @@ p {
 }
 
 .sec-header h3 span {
-    -webkit-text-stroke-color: #fa573a;
+    -webkit-text-stroke-color: #fea800;
     -webkit-text-fill-color: #FFF;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #fa573a;
+    text-shadow: 2px 2px 0 #fea800;
 }
 
 .sec-header h4::after {
@@ -860,7 +815,7 @@ p {
     left: -50px;
     width: 40px;
     height: 2px;
-    background: #fa573a;
+    background: #fea800;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -873,7 +828,7 @@ p {
     right: -40px;
     width: 40px;
     height: 2px;
-    background: #fa573a;
+    background: #fea800;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -905,7 +860,7 @@ p {
 
 .fm-item i {
     font-size: 36px;
-    color: #fa573a;
+    color: #fea800;
 }
 
 .fm-item h3 {
@@ -941,7 +896,7 @@ p {
 
 .watch-item a i {
     font-size: 35px;
-    color: #fa573a;
+    color: #fea800;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -962,14 +917,14 @@ p {
 }
 
 .watch-item a i:hover {
-    background: #fa573a;
+    background: #fea800;
     color: white;
 }
 
 .north-a {
     width: 200px;
     height: 200px;
-    background: #fa573a;
+    background: #fea800;
     text-align: center;
     border-radius: 50%;
     padding-top: 60px;
@@ -999,7 +954,7 @@ p {
 .asia {
     width: 180px;
     height: 180px;
-    background: #fa573a;
+    background: #fea800;
     text-align: center;
     border-radius: 50%;
     padding-top: 40px;
@@ -1011,7 +966,7 @@ p {
 .australia {
     width: 145px;
     height: 145px;
-    background: #fa573a;
+    background: #fea800;
     text-align: center;
     border-radius: 50%;
     padding-top: 26px;
@@ -1023,7 +978,7 @@ p {
 .south-a {
     width: 180px;
     height: 180px;
-    background: #fa573a;
+    background: #fea800;
     text-align: center;
     border-radius: 50%;
     padding-top: 49px;
@@ -1059,7 +1014,7 @@ p {
     padding: 14px 20px;
     font-family: mb;
     font-size: 17px;
-    color: #fa573a;
+    color: #fea800;
     border: 1px solid white;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
@@ -1070,11 +1025,11 @@ p {
 }
 
 .setup-item a:hover {
-    background: #fa573a;
+    background: #fea800;
     color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
 }
 
 .sep-a {
@@ -1082,12 +1037,12 @@ p {
     font-family: mb;
     font-size: 17px;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    background: #fa573a;
+    background: #fea800;
 }
 
 .setup-item p {
@@ -1105,7 +1060,7 @@ p {
     left: 89px;
     width: 60px;
     height: 60px;
-    background: #fa573a;
+    background: #fea800;
     line-height: 55px;
     border-radius: 50%;
     color: white;
@@ -1150,7 +1105,7 @@ p {
 }
 
 .apps-item span {
-    color: #fa573a;
+    color: #fea800;
 }
 
 .apps-item p {
@@ -1187,7 +1142,7 @@ p {
     left: 0;
     width: 100%;
     bottom: 0;
-    background: #fa573a;
+    background: #fea800;
     height: 0px;
     line-height: 40px;
     overflow: hidden;
@@ -1214,7 +1169,7 @@ p {
     bottom: 0;
     width: 0;
     height: 1px;
-    background: #fa573a;
+    background: #fea800;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1260,7 +1215,7 @@ p {
     left: 50%;
     width: 350px;
     height: 350px;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1275,7 +1230,7 @@ p {
     left: 50%;
     width: 450px;
     height: 450px;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1290,7 +1245,7 @@ p {
     left: 50%;
     width: 550px;
     height: 550px;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1322,7 +1277,7 @@ p {
     color: white;
     width: 60px;
     height: 60px;
-    background: #fa573a;
+    background: #fea800;
     line-height: 60px;
     border-radius: 50%;
 }
@@ -1362,7 +1317,7 @@ p {
 }
 
 .download-bg {
-    background: #fa573a;
+    background: #fea800;
     padding: 60px 0;
     border-radius: 5px;
 }
@@ -1460,7 +1415,7 @@ p {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background: #fa573a;
+    background: #fea800;
     text-align: center;
     color: white;
     position: absolute;
@@ -1537,7 +1492,7 @@ p {
 
 .blog-item span {
     display: block;
-    background: #fa573a;
+    background: #fea800;
     color: white;
     width: 75px;
     height: 35px;
@@ -1572,7 +1527,7 @@ p {
 }
 
 .blog-link a {
-    color: #fa573a;
+    color: #fea800;
     font-family: mb;
     text-align: center;
 }
@@ -1660,7 +1615,7 @@ p {
 .price-item span {
     font-size: 22px;
     font-family: mb;
-    color: #fa573a;
+    color: #fea800;
 }
 
 .price-item h3 {
@@ -1693,7 +1648,7 @@ p {
     padding: 14px 20px;
     font-family: mb;
     font-size: 17px;
-    color: #fa573a;
+    color: #fea800;
     border: 1px solid white;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
@@ -1705,23 +1660,23 @@ p {
 }
 
 .price-item a:hover {
-    background: #fa573a;
+    background: #fea800;
     color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
 }
 
 .price-border {
-    border: 2px solid #fa573a;
+    border: 2px solid #fea800;
     padding: 55px 30px;
     border-radius: 10px;
 }
 
 .price-border a {
-    background: #fa573a;
+    background: #fea800;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
 }
 
 /*===========================
@@ -1746,7 +1701,7 @@ p {
 
 .input-group-text i {
     font-size: 18px;
-    color: #fa573a;
+    color: #fea800;
 }
 
 .new-nb {
@@ -1771,10 +1726,10 @@ p {
 
 .con-btn {
     padding: 14px 55px;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     font-family: mb;
     font-size: 17px;
-    background: #fa573a;
+    background: #fea800;
     color: white;
     text-align: center;
     position: relative;
@@ -1787,7 +1742,7 @@ p {
 
 .con-btn:hover {
     background: white;
-    color: #fa573a;
+    color: #fea800;
 }
 
 .input-span span {
@@ -1797,7 +1752,7 @@ p {
 }
 
 .input-span span a {
-    color: #fa573a;
+    color: #fea800;
 }
 
 /*===========================
@@ -1830,9 +1785,9 @@ p {
     width: 30%;
     height: 55px;
     border-radius: 50px;
-    background: #fa573a;
+    background: #fea800;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #fea800;
     font-size: 18px;
     font-family: mb;
     position: absolute;
@@ -1855,7 +1810,7 @@ p {
 }
 
 .footer-logo a b {
-    color: #fa573a;
+    color: #fea800;
 }
 
 .footer-logo {

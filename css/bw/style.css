@@ -89,23 +89,27 @@ p {
     line-height: 28px;
 }
 
+body {
+    background-color: darkgray;
+}
+
 @font-face {
-    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    src: url(../../fonts/Montserrat-ExtraBold.ttf);
     font-family: meb;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Bold.ttf);
+    src: url(../../fonts/Montserrat-Bold.ttf);
     font-family: mb;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Medium.ttf);
+    src: url(../../fonts/Montserrat-Medium.ttf);
     font-family: mm;
 }
 
 @font-face {
-    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../../fonts/Montserrat-Regular.ttf);
     font-family: mr;
 }
 
@@ -131,7 +135,7 @@ p {
 }
 
 .loader-box {
-    color: #fa573a;
+    color: #666666;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     width: 44px;
@@ -150,7 +154,7 @@ p {
 
 .loader-box svg rect {
     fill: none;
-    stroke: #fa573a;
+    stroke: #666666;
     stroke-width: 10px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -240,7 +244,6 @@ p {
     background: rgba(29, 29, 29, 0.7);
     z-index: 999999;
     top: 133px;
-    display: none;
 }
 
 .color-picker h4 {
@@ -249,67 +252,15 @@ p {
     color: white;
 }
 
-.color-picker h4 i {
-    padding-left: 31px;
-}
-
-.color-picker h4 i:hover {
-    cursor: pointer;
-}
-
-.cv span {
+.light-green span {
+    float: left;
+    background: #666666;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     display: block;
     margin-right: 11px;
     margin-top: 20px;
-    float: left;
-}
-
-.light-green span {
-    background: #76d46d;
-
-}
-
-.light-yellow span {
-    background: #fcd04d;
-}
-
-.light-blue span {
-    background: #00bcd4;
-}
-
-.light-red span {
-    background: #e84545;
-}
-
-.light-orange span {
-    background: #ec7144;
-}
-
-.light-orange2 span {
-    background: #ff7657;
-}
-
-.light-darkred span {
-    background: #dd1c2f;
-}
-
-.light-purple span {
-    background: #8675a9;
-}
-
-.light-pink span {
-    background: #f73859;
-}
-
-.light-radish span {
-    background: #FF4B33;
-}
-
-.cog-close {
-    display: none;
 }
 
 /*===========================
@@ -337,7 +288,7 @@ p {
 }
 
 .navbar-light .navbar-brand span {
-    color: #fa573a;
+    color: #666666;
 }
 
 .navbar-light .navbar-brand:focus,
@@ -383,7 +334,7 @@ p {
 }
 
 .menu-link.active {
-    color: #fa573a;
+    color: #666666;
 }
 
 .shows-nav:hover {
@@ -427,7 +378,7 @@ p {
     left: 0;
     width: 2px;
     height: 65px;
-    background: #fa573a;
+    background: #666666;
     opacity: 0;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
@@ -435,7 +386,7 @@ p {
 }
 
 .custom-menubar ul li a:hover {
-    color: #fa573a;
+    color: #666666;
 }
 
 .custom-menubar ul li a:hover:after {
@@ -506,7 +457,7 @@ p {
     -webkit-box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     box-shadow: 0 0 7px rgba(46, 59, 125, 0.23);
     border-radius: 50%;
-    background: #fa573a;
+    background: #666666;
     -webkit-box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
     box-shadow: 0 31px 35px rgba(0, 0, 0, .1);
 }
@@ -565,7 +516,7 @@ p {
 .banner-txt h1 {
     font-family: mb;
     font-size: 65px;
-    color: #fa573a;
+    color: #666666;
     text-transform: uppercase;
     padding-bottom: 12px;
 
@@ -586,8 +537,8 @@ p {
     font-size: 17px;
     font-family: mb;
     color: white;
-    border: 1px solid #fa573a;
-    background: #fa573a;
+    border: 1px solid #666666;
+    background: #666666;
     border-radius: 50px;
 
 }
@@ -630,7 +581,7 @@ p {
 }
 
 .social-icons a i:hover {
-    color: #fa573a;
+    color: #666666;
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -638,7 +589,7 @@ p {
 }
 
 .available-on a:hover {
-    color: #fa573a;
+    color: #666666;
 }
 
 /*===========================
@@ -646,7 +597,7 @@ p {
 =============================*/
 #overview {
     padding: 30px 0 80px;
-    background: #fa573a;
+    background: #666666;
     margin-top: -200px;
 }
 
@@ -673,7 +624,7 @@ p {
 
 .overview-icon i {
     font-size: 35px;
-    color: #fa573a;
+    color: #666666;
     width: 75px;
     height: 75px;
     line-height: 75px;
@@ -721,7 +672,7 @@ p {
 
 .overview-txt p {
     font-size: 16px;
-    color: #E3E3E3;
+    color: #efebeb;
     font-family: mr;
     padding: 0 45px;
 }
@@ -751,26 +702,26 @@ p {
 .feature-image2,
 .feature-image3,
 .feature-image4 {
-    background: url(../images/feature1.jpg);
+    background: url(../../images/feature1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image2 {
-    background: url(../images/feature2.jpg);
+    background: url(../../images/feature2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image3 {
-    background: url(../images/feature3.jpg);
+    background: url(../../images/feature3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .feature-image4 {
-    background: url(../images/feature4.jpg);
+    background: url(../../images/feature4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -792,7 +743,7 @@ p {
 }
 
 .feature-text a {
-    color: #fa573a;
+    color: #666666;
     font-size: 17px;
     font-family: mb;
 }
@@ -829,7 +780,7 @@ p {
 .sec-header h4 {
     font-size: 18px;
     font-family: mb;
-    color: #fa573a;
+    color: #666666;
     padding-bottom: 5px;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -839,7 +790,7 @@ p {
 
 .sec-header h3 {
     font-size: 65px;
-    color: #fa573a;
+    color: #666666;
     font-family: meb;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -847,10 +798,10 @@ p {
 }
 
 .sec-header h3 span {
-    -webkit-text-stroke-color: #fa573a;
-    -webkit-text-fill-color: #FFF;
-    -webkit-text-stroke-width: 1px;
-    text-shadow: 2px 2px 0 #fa573a;
+	-webkit-text-stroke-color: #666666;
+	-webkit-text-fill-color: #FFF;
+	-webkit-text-stroke-width: 1px;
+    text-shadow: 2px 2px 0 #666666;
 }
 
 .sec-header h4::after {
@@ -860,7 +811,7 @@ p {
     left: -50px;
     width: 40px;
     height: 2px;
-    background: #fa573a;
+    background: #666666;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -873,7 +824,7 @@ p {
     right: -40px;
     width: 40px;
     height: 2px;
-    background: #fa573a;
+    background: #666666;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -905,7 +856,7 @@ p {
 
 .fm-item i {
     font-size: 36px;
-    color: #fa573a;
+    color: #666666;
 }
 
 .fm-item h3 {
@@ -941,7 +892,7 @@ p {
 
 .watch-item a i {
     font-size: 35px;
-    color: #fa573a;
+    color: #666666;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -962,14 +913,14 @@ p {
 }
 
 .watch-item a i:hover {
-    background: #fa573a;
+    background: #666666;
     color: white;
 }
 
 .north-a {
     width: 200px;
     height: 200px;
-    background: #fa573a;
+    background: #666666;
     text-align: center;
     border-radius: 50%;
     padding-top: 60px;
@@ -999,7 +950,7 @@ p {
 .asia {
     width: 180px;
     height: 180px;
-    background: #fa573a;
+    background: #666666;
     text-align: center;
     border-radius: 50%;
     padding-top: 40px;
@@ -1011,7 +962,7 @@ p {
 .australia {
     width: 145px;
     height: 145px;
-    background: #fa573a;
+    background: #666666;
     text-align: center;
     border-radius: 50%;
     padding-top: 26px;
@@ -1023,7 +974,7 @@ p {
 .south-a {
     width: 180px;
     height: 180px;
-    background: #fa573a;
+    background: #666666;
     text-align: center;
     border-radius: 50%;
     padding-top: 49px;
@@ -1059,7 +1010,7 @@ p {
     padding: 14px 20px;
     font-family: mb;
     font-size: 17px;
-    color: #fa573a;
+    color: #666666;
     border: 1px solid white;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
@@ -1070,11 +1021,11 @@ p {
 }
 
 .setup-item a:hover {
-    background: #fa573a;
+    background: #666666;
     color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
 }
 
 .sep-a {
@@ -1082,12 +1033,12 @@ p {
     font-family: mb;
     font-size: 17px;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    background: #fa573a;
+    background: #666666;
 }
 
 .setup-item p {
@@ -1105,7 +1056,7 @@ p {
     left: 89px;
     width: 60px;
     height: 60px;
-    background: #fa573a;
+    background: #666666;
     line-height: 55px;
     border-radius: 50%;
     color: white;
@@ -1150,7 +1101,7 @@ p {
 }
 
 .apps-item span {
-    color: #fa573a;
+    color: #666666;
 }
 
 .apps-item p {
@@ -1187,7 +1138,7 @@ p {
     left: 0;
     width: 100%;
     bottom: 0;
-    background: #fa573a;
+    background: #666666;
     height: 0px;
     line-height: 40px;
     overflow: hidden;
@@ -1214,7 +1165,7 @@ p {
     bottom: 0;
     width: 0;
     height: 1px;
-    background: #fa573a;
+    background: #666666;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1260,7 +1211,7 @@ p {
     left: 50%;
     width: 350px;
     height: 350px;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1275,7 +1226,7 @@ p {
     left: 50%;
     width: 450px;
     height: 450px;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1290,7 +1241,7 @@ p {
     left: 50%;
     width: 550px;
     height: 550px;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1322,7 +1273,7 @@ p {
     color: white;
     width: 60px;
     height: 60px;
-    background: #fa573a;
+    background: #666666;
     line-height: 60px;
     border-radius: 50%;
 }
@@ -1362,7 +1313,7 @@ p {
 }
 
 .download-bg {
-    background: #fa573a;
+    background: #666666;
     padding: 60px 0;
     border-radius: 5px;
 }
@@ -1460,7 +1411,7 @@ p {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background: #fa573a;
+    background: #666666;
     text-align: center;
     color: white;
     position: absolute;
@@ -1537,7 +1488,7 @@ p {
 
 .blog-item span {
     display: block;
-    background: #fa573a;
+    background: #666666;
     color: white;
     width: 75px;
     height: 35px;
@@ -1572,7 +1523,7 @@ p {
 }
 
 .blog-link a {
-    color: #fa573a;
+    color: #666666;
     font-family: mb;
     text-align: center;
 }
@@ -1660,7 +1611,7 @@ p {
 .price-item span {
     font-size: 22px;
     font-family: mb;
-    color: #fa573a;
+    color: #666666;
 }
 
 .price-item h3 {
@@ -1693,7 +1644,7 @@ p {
     padding: 14px 20px;
     font-family: mb;
     font-size: 17px;
-    color: #fa573a;
+    color: #666666;
     border: 1px solid white;
     border-radius: 50px;
     -webkit-transition: all linear .3s;
@@ -1705,23 +1656,23 @@ p {
 }
 
 .price-item a:hover {
-    background: #fa573a;
+    background: #666666;
     color: white;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
 }
 
 .price-border {
-    border: 2px solid #fa573a;
+    border: 2px solid #666666;
     padding: 55px 30px;
     border-radius: 10px;
 }
 
 .price-border a {
-    background: #fa573a;
+    background: #666666;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
 }
 
 /*===========================
@@ -1746,7 +1697,7 @@ p {
 
 .input-group-text i {
     font-size: 18px;
-    color: #fa573a;
+    color: #666666;
 }
 
 .new-nb {
@@ -1771,10 +1722,10 @@ p {
 
 .con-btn {
     padding: 14px 55px;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     font-family: mb;
     font-size: 17px;
-    background: #fa573a;
+    background: #666666;
     color: white;
     text-align: center;
     position: relative;
@@ -1787,7 +1738,7 @@ p {
 
 .con-btn:hover {
     background: white;
-    color: #fa573a;
+    color: #666666;
 }
 
 .input-span span {
@@ -1797,7 +1748,7 @@ p {
 }
 
 .input-span span a {
-    color: #fa573a;
+    color: #666666;
 }
 
 /*===========================
@@ -1805,7 +1756,7 @@ p {
 =============================*/
 #subscribe {
     padding: 70px 0;
-    background: #ffeeeb;
+    background: #f4f6fa;
 }
 
 .subscribe-text h3 {
@@ -1830,9 +1781,9 @@ p {
     width: 30%;
     height: 55px;
     border-radius: 50px;
-    background: #fa573a;
+    background: #666666;
     color: white;
-    border: 1px solid #fa573a;
+    border: 1px solid #666666;
     font-size: 18px;
     font-family: mb;
     position: absolute;
@@ -1855,7 +1806,7 @@ p {
 }
 
 .footer-logo a b {
-    color: #fa573a;
+    color: #666666;
 }
 
 .footer-logo {
